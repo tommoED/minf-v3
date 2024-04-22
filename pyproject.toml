@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spectralcodec"
+version = "0.1.0"
+description = "A Python module for spectral coding and decoding."
+authors = [{ name = "Thomas Chung", email = "T.Chung-3@sms.ed.a" }]
+dependencies = [
+    "numpy",
+    "scipy",
+    "tifffile"
+]
+
+[tool.setuptools]
+packages = ["spectralcodec"]
